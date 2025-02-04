@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="Sv-shop" style="border: solid; margin: 10px; background-color: cyan;">
+        <h3 style="margin-left: 100px;">Sv-shop</h3>
+        <span style="display: inline-block; margin: 10px;">
+            <label for="email" style="margin-left: 10px;">E-Mail</label>
+            <input autocomplete="on" id="email" type="text">
+        </span><br>
+        <span style="display: inline-block; margin: 5px;">
+            <label for="password">Password</label>
+            <input autocomplete="on" id="password" type="text">
+        </span><br>
+        <span style="display: inline-block; margin-left: 70px;">
+            <input autocomplete="on" id="signin" type="button" value="signin" onclick="signin()">
+        </span>
+        <span style="display: inline-block; margin-left: 60px; margin-top: 10px;">
+            <input autocomplete="on" id="signup" type="button" value="signup" onclick="signup()">
+        </span>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> 
+    <script src="../src/user.js" ></script> 
+    <script src="../src/index.js"></script>
+</body>
+</html>
